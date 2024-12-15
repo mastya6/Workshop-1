@@ -41,16 +41,13 @@
 
 ## Задание 1
 Написать программу Hello World на Python с запуском в Jupiter Notebook. 
+ 
+ print ("Helo world!")
 
 
 
 ## Задание 2
-### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
+Написать программу Hello World на C# с запуском на Unity. 
 
 import ScriptEnv
 ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
