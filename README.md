@@ -45,6 +45,11 @@
 
 ## Задание 2
 Написать программу Hello World на C# с запуском на Unity. 
+
+
+
+
+```py
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,7 +59,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        System.Console.WriteLine("Helo world!");
+        System.Console.WriteLine("Привет, мир!");
 
     }
     // Update is called once per frame
@@ -64,49 +69,23 @@ public class NewBehaviourScript : MonoBehaviour
     }
 }
 
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
 ```
+
+
 
 ## Задание 3
 Какую сущность(и) мы бы могли "обучить" ML-Agent-ом для того чтобы создать более качественный игровой опыт?
 
-```py
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+```py
+Зомби
+Использование ML-агентов для обучения зомби позволяет создавать более интеллектуальных, динамичных и адаптивных врагов, что значительно улучшает игровой процесс, добавляя больше неожиданности и напряжения. Вместо простого преследования или атаки, зомби могут стать более сложными противниками, которые реагируют на действия игрока, используют окружение и развивают стратегии в реальном времени. Это приведет к более живым и увлекательным игровым сессиям.
+Примеры поведения:
+Зомби могут изучать типы укрытий, чтобы обходить их через слабые места.
+Они могут менять маршруты, чтобы не попасть в ловушки, если игрок постоянно использует одни и те же тактики.
+Зомби могут двигаться к источнику звука или за запахом (например, следовать за запахом крови или запахом еды).
+Они могут группироваться рядом с источниками звуковых сигналов, что заставляет игрока быть более осторожным в использовании оружия или других шумных действий.
+
 
 ```
 
