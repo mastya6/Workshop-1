@@ -13,10 +13,7 @@
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
-Работу проверили:
-- к.т.н., доцент Денисов Д.В.
-- к.э.н., доцент Панов М.А.
-- ст. преп., Фадеев В.О.
+
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
@@ -48,6 +45,25 @@
 
 ## Задание 2
 Написать программу Hello World на C# с запуском на Unity. 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        System.Console.WriteLine("Helo world!");
+
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
 
 import ScriptEnv
 ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
@@ -70,10 +86,7 @@ oEditor.CreateSphere(
 ```
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+Какую сущность(и) мы бы могли "обучить" ML-Agent-ом для того чтобы создать более качественный игровой опыт?
 
 ```py
 
